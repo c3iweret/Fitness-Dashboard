@@ -1,0 +1,3 @@
+{{#exercises}}
+<option value="{{name}}"> {{name}} </option>
+{{/exercises}}

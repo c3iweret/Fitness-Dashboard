@@ -1,0 +1,22 @@
+#container {	
+	margin:0 auto;
+	width: 60%;
+	text-align: center;
+}
+
+#tdee_calculator h5, #macro_calculator h5 {
+	display: inline;
+}
+
+#tdee_calculator {
+	background-color: #e4e4e4;
+}
+
+#macro_calculator, #bmi_calculator {
+	margin-top:5%;
+	background-color: #e4e4e4;
+}
+
+#container h2 {
+	text-decoration: underline;
+}

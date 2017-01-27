@@ -1,0 +1,74 @@
+    <div class='layout'>
+        <div class='layout-content'>
+            <div class="sub-block">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="card-container col-lg-4">
+                            <div class="card clock">
+                                <h3>Current Time</h3>
+                                <h4 id="time"></h4>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="card-container col-lg-4">
+                            <div class="card weather">
+                                <h3>Current Weather <small>Toronto</small></h3>
+                                <h2 class='temp'><span id='currentTemp'></span> <small><span id='tempHigh'></span><br/><span id='tempLow'></span></small></h2>
+                                <h3><span id='weatherType'> </span></h3>
+                                <h5>Wind: <span id='windSpeed'></span> <span id='windDirection'></span></h5>
+                                <h5>Humidity: <span id='humidity'></span></h5>
+                                <h5>Pressure: <span id='pressure'></span></h5>
+                            </div>
+                        </div>
+                        <div class="card-container col-lg-4">
+                            <div class="card todo-card">
+                                <h3>Todo</h3>
+                                <div id='todo-container'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='remaining-content'>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function initialize() {
+            startTime();
+
+            $.post("/weather/getCurrentWeather", function(data) {
+                document.getElementById('weatherType').innerHTML = data.weather[0].main;
+                document.getElementById('currentTemp').innerHTML = data.main.temp + "&deg;C";
+                document.getElementById('tempHigh').innerHTML = "High " + data.main.temp_max + "&deg;C";
+                document.getElementById('tempLow').innerHTML = "Low " + data.main.temp_min + "&deg;C";
+                document.getElementById('windSpeed').innerHTML = data.wind.speed + " m/s";
+                if (data.wind.deg) {
+                    document.getElementById('windDirection').innerHTML = data.wind.deg + "&deg;";
+                }
+                document.getElementById('humidity').innerHTML = data.main.humidity + "%";
+                document.getElementById('pressure').innerHTML = data.main.pressure + " hPa";
+            });
+        }
+
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('time').innerHTML =
+                h + ":" + m + ":" + s;
+            var t = setTimeout(startTime, 500);
+        }
+
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i
+            };
+            return i;
+        }
+    </script>
+    <script src="/js/todo.js" type="text/javascript"></script>

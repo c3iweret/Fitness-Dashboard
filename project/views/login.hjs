@@ -1,0 +1,57 @@
+<link href="/css/home.css" rel="stylesheet" type="text/css"/>
+<script src="/js/home.js"></script>
+
+<div class="container" id="body">
+    <h1> FITNESS DASHBOARD </h1>
+    
+    <h2> {{ Message }} <h2>
+
+    <hr />
+    
+    <div class="row">
+    	<div class="col-md-6">
+		    <form action="/auth/google">
+		    <button class="form-control" style="background-color: #00afff; color: white; font-weight: bold;">Login via Google</button>
+		    </form>
+	    </div>
+    	<div class="col-md-6">
+		    <form action="/auth/facebook">
+		    <button class="form-control" style="background-color: #00afff; color: white; font-weight: bold;">Login via Facebook</button>
+		    </form>
+	    </div>
+    </div>
+     
+     <button class="form-control" id="b-login">Log In</button>
+
+      <form id="form-login" class="hidden container " style=" width: 100%;" action="/login" method="post">
+      	<br />
+		Email  <input class="form-control" type="email" name="email" required><br> 
+		Password  <input class="form-control" type="password" name="password" required> <br>
+		<button id="home-login">Log In</button>	
+
+	 </form>
+
+     <button class="form-control" id="b-signup">Sign Up</button>
+    
+	 
+	 <form id="signup" class="hidden container" style=" width: 100%;" action="/signup" method="post">
+	 		<br />
+	 		<div class="row">
+	 			<div class="col-md-6">
+					Email:  <input class="form-control" type="email" name="email" required> <br> 
+					Password:  <input class="form-control" type="password" name="password" required> <br>
+					Confirmed Password:  <input class="form-control" type="password" name="confirmedPassword" required> <br>
+					First Name: <input class="form-control" type="text" name="firstName" required> <br>
+				</div>
+				<div class="col-md-6">
+					Birthday: <input class="form-control" type="text" name="birthday" default="MM/DD/YYYY" required> <br>
+					Height:  <input class="form-control" type="number" name="height" required> <br>
+					Weight:  <input class="form-control" type="number" name="weight" required> <br>
+					Last Name:  <input class="form-control" type="text" name="lastName" required> <br>
+				</div>
+			</div>
+			Gender:  <input type="radio" name="gender" value="male" required> Male  <input type="radio" name="gender" value="female" required> Female <br>
+			<button type="submit">Sign Up</button>	
+	 </form>
+
+</div>

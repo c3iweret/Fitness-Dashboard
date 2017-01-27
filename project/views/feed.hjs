@@ -1,0 +1,27 @@
+<link href="/css/feed.css" rel="stylesheet" type="text/css" />
+<script src="/js/feed.js"></script>
+
+<div id="feed-container">
+
+  <div id="tags">
+
+    <h4>Tags</h4>
+    <h4 id="fitness">#Fitness</h4>
+    <h4 id="lifestyle">#Lifestyle</h4>
+    <h4 id="exercise">#Exercise</h4>
+
+  </div>
+  <div id="feed-item-container">
+    <h2>{{title}}</h2>
+    {{#news_articles}}
+    <div class="feed-item">
+      
+      <div><h3>{{article_title}}</h3><h6>{{published}}</h6></div>
+      <h5>{{content}}</h5>
+      <input class="read-more" type="button" onclick="window.open('{{link}}');" value="Read More" />
+
+    </div>
+    {{/news_articles}}
+  </div>
+
+</div>

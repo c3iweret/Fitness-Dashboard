@@ -1,0 +1,99 @@
+ $(document).ready(function() {
+//         $('body').pagescalendar({
+//     ui: {
+//         //Year Selector
+//         year: {
+//             visible: true,
+//             format: 'YYYY',
+//             startYear: '2000',
+//             endYear: '2000',
+//             eventBubble: true
+//         },
+//         //Month Selector
+//         month: {
+//             visible: true,
+//             format: 'MMM',
+//             eventBubble: true
+//         },
+//         dateHeader: {
+//             format: 'MMMM YYYY, D dddd',
+//             visible: true,
+//         },
+//         //Mini Week Day Selector
+//         week: {
+//             day: {
+//                 format: 'D'
+//             },
+//             header: {
+//                 format: 'dd'
+//             },
+//             eventBubble: true,
+//             startOfTheWeek: '0',
+//             endOfTheWeek:'6'
+//         },
+//         //Week view Grid Options
+//         grid: {
+//             dateFormat: 'D dddd',
+//             timeFormat: 'h A',
+//             eventBubble: true,
+//             scrollToFirstEvent:false,
+//             scrollToAnimationSpeed:300,
+//             scrollToGap:20
+//         }
+//     },
+//     eventObj: {
+//         editable: true
+//     },
+//     view:'week',
+//     now: null,
+//     locale: 'en',
+//     //Event display time format
+//     timeFormat: 'h:mm a',
+//     minTime:0,
+//     maxTime:24,
+//     dateFormat: 'MMMM Do YYYY',
+//     slotDuration: '30', //In Mins : supports 15, 30 and 60
+//     events: [],
+//     eventOverlap: false,
+//     weekends:true,
+//     disableDates:[],
+//     //Event CallBacks
+//     onViewRenderComplete: function() {},
+//     onEventDblClick: function() {},
+//     onEventClick: function(event) {},
+//     onEventRender: function() {},
+//     onEventDragComplete: function(event) {},
+//     onEventResizeComplete: function(event) {},
+//     onTimeSlotDblClick: function(timeSlot) {},
+//     onDateChange:function(range){}
+// });
+        $('#calendarId').pagescalendar();
+        // Initializes search overlay plugin.
+        // Replace onSearchSubmit() and onKeyEnter() with 
+        // your logic to perform a search and display results
+        $('[data-pages="search"]').search({
+            searchField: '#overlay-search',
+            closeButton: '.overlay-close',
+            suggestions: '#overlay-suggestions',
+            brand: '.brand',
+            onSearchSubmit: function(searchString) {
+                console.log("Search for: " + searchString);
+            },
+            onKeyEnter: function(searchString) {
+                console.log("Live search for: " + searchString);
+                var searchField = $('#overlay-search');
+                var searchResults = $('.search-results');
+                clearTimeout($.data(this, 'timer'));
+                searchResults.fadeOut("fast");
+                var wait = setTimeout(function() {
+                    searchResults.find('.result-name').each(function() {
+                        if (searchField.val().length != 0) {
+                            $(this).html(searchField.val());
+                            searchResults.fadeIn("fast");
+                        }
+                    });
+                }, 500);
+                $(this).data('timer', wait);
+            }
+        });
+    })

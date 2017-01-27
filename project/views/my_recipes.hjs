@@ -1,0 +1,30 @@
+<script src="/js/recipes.js"></script>
+
+
+<h4>My Saved Recipes</h4>
+
+
+
+
+<table id="myDataTable" class="table table-hover" cellspacing="0" width="100%">
+     
+   <tr>
+          
+      <th>Recipe Name</th>
+          
+      <th>Ingredients</th>
+          
+      <th>Nutrition Infomation</th>
+        
+   </tr>
+   {{#data}}
+   <tr>
+      <td>{{ name }}</td>
+      <td>{{ ingredients }}</td>
+      <td>{{ nutrition }}</td>
+   </tr>
+   {{/data}}
+</table>
+
+<br>
+<br>

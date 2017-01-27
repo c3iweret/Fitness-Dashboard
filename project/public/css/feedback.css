@@ -1,0 +1,7 @@
+.feedback-center {
+	text-align: center;
+}
+
+textarea:focus {
+	background-color:initial;
+}

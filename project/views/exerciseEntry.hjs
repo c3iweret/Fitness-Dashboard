@@ -1,0 +1,20 @@
+{{#entries}}
+<div class = "row" style="text-align: center;">
+	<div class="col-md-2">
+	  <h4> {{exercise}} </h4>
+	</div>
+	<div class="col-md-2">
+	  <h4> {{repetitions}} </h4>
+	</div>
+	<div class="col-md-2">
+	  <h4> {{sets}} </h4>
+	</div>
+	<div class="col-md-4">
+	  <h5> {{note}} </h5>
+	</div>
+	<div class="col-md-2">
+		<h4 onClick="DeleteEntry('{{_id}}')"> X </h4>
+	</div>
+</div>
+<hr />
+{{/entries}}

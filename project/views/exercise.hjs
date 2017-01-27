@@ -1,0 +1,68 @@
+<link href="/css/exercise.css" rel="stylesheet" type="text/css" />
+<link href="/css/exercise.css" rel="stylesheet" type="text/css" />
+<script src="/js/exercise.js"></script>
+
+
+<h4> Excercise Log </h4> <p id="date">{{date.month}}/{{date.day}}/{{date.year}}</p>
+
+<div class = "container-fluid row">
+    <div class="col-md-6">
+        <button class="btn btn-default" onClick="LoadExerciseEntries(-1)"> Previous Day </button>
+        <button class="btn btn-default" onClick="LoadExerciseEntries(1)"> Next Day </button>
+    </div>
+    <div class="col-md-6" style="text-align: right;">
+      <input type="text" id="exercise-name-create" placeholder="Exercise name" />
+      <button class="btn btn-default" onClick="CreateExercise()"> Add Exercise </button>    
+    </div>
+
+</div>
+
+<br/>
+{{#err}} <p> Error: {{err}} </p> <hr /> {{/err}}
+<input type="hidden" name="date" value="{date}">
+
+<div class = "row wrapper" style="text-align: center;">
+    <div class="col-md-2">
+      <label> Exercise: </label>
+    </div>
+    <div class="col-md-2">
+      <label> Repetitions: </label>
+    </div>
+    <div class="col-md-2">
+      <label> Sets: </label>
+    </div>
+    <div class="col-md-4">
+      <label> Notes: </label>
+    </div>
+</div>
+
+<hr />
+
+<div class = "row wrapper entry" style="text-align: center;">
+    <div class="col-md-2">
+      <select class="form-control" style="width: 100%;" id="exercise-select">
+        <div id="exercise-parent">
+        {{^exercise}}
+        <option value=""> You have not created any exercises, please create one before adding them to the log </option>
+        {{/exercise}}
+        </div>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <input class="form-control" type="number" id="exercise-reps" min="1">
+    </div>
+    <div class="col-md-2">
+      <input class="form-control" type="number" id="exercise-sets"  min="1">
+    </div>
+    <div class="col-md-4">
+      <input class="form-control" type="text" id="exercise-note"  min="1">
+    </div>
+    <div class="col-md-2">
+      <button class="form-control" onClick="CreateExerciseEntry()"  min="1"> Submit</button>
+    </div>
+</div>
+
+<div id="entry-parent">
+
+</div>
+

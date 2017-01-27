@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import 'scrollbars';
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+@import 'mainNav';
+@import 'todo';
+
+.btn,
+a {
+    outline: none !important;
+}
+.modal-dialog {
+    .close {
+        outline: none;
+        color: white;
+    }
+
+    .modal-content {
+        border-radius: 0;
+        background: rgba(0,0,0,0.8);
+        color: white;
+        .modal-footer,
+        .modal-header {
+            border: none;
+        }
+        .modal-header {
+            padding-bottom: 0;
+        }
+        .btn {
+            border: none;
+            border-radius: 0;
+        }
+    }
+}
+label {
+    display: block;
+    color: #777;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+input {
+    background: none;
+    border: none;
+    outline: none !important;
+    border-bottom: solid 0.2rem #777;
+    &:active,
+    &:focus {
+        border-color: white;
+    }
+}
+.button {
+    outline: none;
+}
+.btn {
+    border-radius: 0;
+}
+.dropdown-menu {
+    border-radius: 0;
+    background: rgba(50,50,50,0.85);
+    width: 100%;
+
+    li > a {
+        color: #999;
+    }
+
+    .active {
+        a {
+            background-color: #777;
+        }
+
+        a:hover {
+            background-color: #eee;
+            color: black;
+        }
+    }
+}
+
+#root {
+    height:100%;
+}
+
+.background {
+    position: fixed;
+    background: black;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    span {
+        img {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+            width: 100%;
+            height: calc(100%-1rem);
+        }
+    }
+}
+
+.main {
+    height: 30rem;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    h1 {
+        margin-top: -2rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 0.5rem;
+        small {
+            display: block;
+            font-size: 0.6em;
+            color: #ddd;
+            line-height: 5rem;
+        }
+    }
+}
+
+.sub-block {
+    background: #fcfcfc;
+    padding: 2rem 0rem;
+
+    @media(max-width: 767px) {
+        padding: 4rem 1rem;
+    }
+}
+
+.layout {
+    height: 100%;
+
+    .layout-content {
+        display: flex;
+        height: calc(100% - 6.2rem);
+        flex-direction: column;
+        min-height: 100vh;
+
+        .remaining-content {
+            flex: 1;
+            background: #fcfcfc;
+            padding-bottom: 0rem;
+        }
+    }
+
+    .loginButton {
+        a {
+            padding: 1rem;
+        }
+        img {
+            height: 3.6rem;
+        }
+
+        &:hover {
+            img {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .profilePic {
+        width: 3rem;
+        margin-right: 0.8rem;
+        margin-bottom: 0.3rem;
+    }
+}
+
+.card-container {
+    overflow: hidden;
+
+    .card {
+        box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.2);
+        min-height: 23rem;
+        padding: 1rem 2rem;
+        width: 100%;
+        overflow-y: auto;
+    }
+}
+
+
+.clock {
+    display : flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: royalblue;
+
+    h2, h3, h4 {
+        color: white;
+    }
+
+    #time {
+        font-size: 5rem;
+        align-self: center;
+        margin-bottom: 3rem;
+    }
+}
+
+.weather {
+    background: gold;
+
+    small {
+        color: black;
+    }
+
+    .temp {
+        font-size: 3rem;
+        margin: 1.2rem;
+
+        small {
+            display: inline-block;
+            font-size: 0.3em;
+        }
+    }
+
+    h3 {
+        small {
+            font-size: 0.7em;
+        }
+    }
+
+    h5 {
+        margin: 0;
+    }
+
+}
+
+.profile-dropdown {
+    width: 10rem;
+    background: rgba(250,250,250,0.75);
+
+    .bg-master-lighter {
+        margin-top: 0.3rem;
+        padding: 0.3rem;
+        background: none;
+    }
+
+    li:first-child {
+        .pull-right {
+            left: 0.8rem;
+        }
+    }
+
+    li:last-child {
+        margin-top: 0.3rem;
+        padding: 0.3rem;
+        background: none;
+
+        .pull-left {
+            right: 0.4rem;
+        }
+    }
+
+    li>a {
+        color: #111;
+        text-shadow: 0 1px #fff;
+    }
+}

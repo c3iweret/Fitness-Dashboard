@@ -1,0 +1,45 @@
+#feed-container {
+	width:70%;
+	margin: 0 auto;
+}
+
+#feed-item-container {
+	float: left;
+	margin-left:20%;
+}
+
+#tags {
+	float:left;
+	position:fixed;
+	margin-top:5%;
+}
+
+#fitness, #lifestyle, #exercise {
+	cursor: pointer;
+}
+
+.feed-item {
+	margin-top: 5%;
+	padding:2%;
+	overflow: hidden;
+	background-color: #e4e4e4;
+}
+
+.read-more {
+	float:right;
+}
+
+@media only screen and (max-width: 700px) {
+    #tags {
+    	width:100%;
+    	float:none;
+    	position:static;
+    	margin-left:10%;
+    	padding:2%;
+    	text-align: center;
+    }
+
+    #feed-item-container {
+
+    }
+}

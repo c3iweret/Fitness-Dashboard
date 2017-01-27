@@ -1,0 +1,1042 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/package.json
+5 verbose install where, deps [ '/Users/temisaniwere/Documents/CSC301/project/project-team-13/project',
+5 verbose install   [ 'bcryptjs',
+5 verbose install     'body-parser',
+5 verbose install     'compression',
+5 verbose install     'connect-flash',
+5 verbose install     'connect-mongo',
+5 verbose install     'cookie-parser',
+5 verbose install     'debug',
+5 verbose install     'express',
+5 verbose install     'express-session',
+5 verbose install     'feed-read-parser',
+5 verbose install     'helmet',
+5 verbose install     'hjs',
+5 verbose install     'iconv-lite',
+5 verbose install     'less-middleware',
+5 verbose install     'mongojs',
+5 verbose install     'mongoose',
+5 verbose install     'mongoose-unique-validator',
+5 verbose install     'morgan',
+5 verbose install     'passport',
+5 verbose install     'passport-facebook',
+5 verbose install     'passport-google-oauth',
+5 verbose install     'passport-local',
+5 verbose install     'request-json',
+5 verbose install     'serve-favicon',
+5 verbose install     'gulp',
+5 verbose install     'gulp-autoprefixer',
+5 verbose install     'gulp-sass',
+5 verbose install     'node-sass' ] ]
+6 verbose install where, peers [ '/Users/temisaniwere/Documents/CSC301/project/project-team-13/project',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/package.json
+8 info preinstall fit-app@0.0.0
+9 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcrypt/package.json
+10 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/body-parser/package.json
+11 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/compression/package.json
+12 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/connect-flash/package.json
+13 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/connect-mongo/package.json
+14 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/cookie-parser/package.json
+15 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/debug/package.json
+16 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/express/package.json
+17 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/express-session/package.json
+18 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/feed-read-parser/package.json
+19 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/gulp/package.json
+20 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/gulp-autoprefixer/package.json
+21 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/gulp-sass/package.json
+22 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/helmet/package.json
+23 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/hjs/package.json
+24 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/iconv-lite/package.json
+25 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/less-middleware/package.json
+26 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongojs/package.json
+27 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose/package.json
+28 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/morgan/package.json
+29 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/node-sass/package.json
+30 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/nodemon/package.json
+31 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport/package.json
+32 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport-facebook/package.json
+33 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport-google-oauth/package.json
+34 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport-local/package.json
+35 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/request-json/package.json
+36 verbose installManyTop reading scoped package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/serve-favicon/package.json
+37 info package.json hjs@0.0.6 No license field.
+38 info package.json connect-flash@0.1.1 No license field.
+39 info package.json feed-read-parser@0.0.6 No license field.
+40 info package.json passport-local@1.0.0 No license field.
+41 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/package.json
+42 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcrypt/package.json
+43 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/body-parser/package.json
+44 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/compression/package.json
+45 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/connect-flash/package.json
+46 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/connect-mongo/package.json
+47 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/cookie-parser/package.json
+48 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/debug/package.json
+49 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/express/package.json
+50 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/express-session/package.json
+51 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/feed-read-parser/package.json
+52 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/gulp/package.json
+53 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/gulp-autoprefixer/package.json
+54 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/gulp-sass/package.json
+55 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/helmet/package.json
+56 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/hjs/package.json
+57 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/iconv-lite/package.json
+58 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/less-middleware/package.json
+59 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongojs/package.json
+60 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose/package.json
+61 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/morgan/package.json
+62 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/node-sass/package.json
+63 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/nodemon/package.json
+64 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport/package.json
+65 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport-facebook/package.json
+66 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport-google-oauth/package.json
+67 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport-local/package.json
+68 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/request-json/package.json
+69 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/serve-favicon/package.json
+70 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin/gulp/package.json
+71 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin/node-sass/package.json
+72 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin/nodemon/package.json
+73 verbose already installed skipping cookie-parser@^1.4.3 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+74 verbose already installed skipping debug@^2.2.0 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+75 verbose already installed skipping express@^4.14.0 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+76 verbose already installed skipping express-session@^1.14.2 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+77 verbose already installed skipping feed-read-parser@0.0.6 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+78 verbose already installed skipping helmet@^3.1.0 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+79 verbose already installed skipping hjs@0.0.6 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+80 verbose already installed skipping iconv-lite@^0.4.13 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+81 verbose already installed skipping less-middleware@^2.2.0 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+82 verbose already installed skipping mongojs@^2.4.0 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+83 verbose already installed skipping mongoose@^4.6.7 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+84 silly cache add args [ 'mongoose-unique-validator@^1.0.3', null ]
+85 verbose cache add spec mongoose-unique-validator@^1.0.3
+86 silly cache add parsed spec Result {
+86 silly cache add   raw: 'mongoose-unique-validator@^1.0.3',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'mongoose-unique-validator',
+86 silly cache add   rawSpec: '^1.0.3',
+86 silly cache add   spec: '>=1.0.3 <2.0.0',
+86 silly cache add   type: 'range' }
+87 silly addNamed mongoose-unique-validator@>=1.0.3 <2.0.0
+88 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for mongoose-unique-validator
+89 silly addNameRange { name: 'mongoose-unique-validator',
+89 silly addNameRange   range: '>=1.0.3 <2.0.0',
+89 silly addNameRange   hasData: false }
+90 silly mapToRegistry name mongoose-unique-validator
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry data Result {
+93 silly mapToRegistry   raw: 'mongoose-unique-validator',
+93 silly mapToRegistry   scope: null,
+93 silly mapToRegistry   name: 'mongoose-unique-validator',
+93 silly mapToRegistry   rawSpec: '',
+93 silly mapToRegistry   spec: 'latest',
+93 silly mapToRegistry   type: 'tag' }
+94 silly mapToRegistry uri https://registry.npmjs.org/mongoose-unique-validator
+95 verbose addNameRange registry:https://registry.npmjs.org/mongoose-unique-validator not in flight; fetching
+96 verbose request uri https://registry.npmjs.org/mongoose-unique-validator
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 6:34:58 PM
+99 verbose request id 43ca8b8d3f8b8501
+100 http request GET https://registry.npmjs.org/mongoose-unique-validator
+101 verbose already installed skipping morgan@^1.7.0 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+102 verbose already installed skipping passport@^0.3.2 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+103 verbose already installed skipping passport-facebook@^2.1.1 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+104 verbose already installed skipping passport-google-oauth@^1.0.0 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+105 verbose already installed skipping passport-local@^1.0.0 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+106 verbose already installed skipping request-json@^0.6.1 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+107 verbose already installed skipping serve-favicon@^2.3.0 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+108 verbose already installed skipping gulp@^3.9.1 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+109 verbose already installed skipping gulp-autoprefixer@^3.1.1 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+110 verbose already installed skipping gulp-sass@^2.3.2 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+111 verbose already installed skipping node-sass@^3.11.2 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+112 silly cache add args [ 'bcryptjs@^2.3.0', null ]
+113 verbose cache add spec bcryptjs@^2.3.0
+114 silly cache add parsed spec Result {
+114 silly cache add   raw: 'bcryptjs@^2.3.0',
+114 silly cache add   scope: null,
+114 silly cache add   name: 'bcryptjs',
+114 silly cache add   rawSpec: '^2.3.0',
+114 silly cache add   spec: '>=2.3.0 <3.0.0',
+114 silly cache add   type: 'range' }
+115 silly addNamed bcryptjs@>=2.3.0 <3.0.0
+116 verbose addNamed ">=2.3.0 <3.0.0" is a valid semver range for bcryptjs
+117 silly addNameRange { name: 'bcryptjs', range: '>=2.3.0 <3.0.0', hasData: false }
+118 silly mapToRegistry name bcryptjs
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry data Result {
+121 silly mapToRegistry   raw: 'bcryptjs',
+121 silly mapToRegistry   scope: null,
+121 silly mapToRegistry   name: 'bcryptjs',
+121 silly mapToRegistry   rawSpec: '',
+121 silly mapToRegistry   spec: 'latest',
+121 silly mapToRegistry   type: 'tag' }
+122 silly mapToRegistry uri https://registry.npmjs.org/bcryptjs
+123 verbose addNameRange registry:https://registry.npmjs.org/bcryptjs not in flight; fetching
+124 verbose already installed skipping body-parser@^1.15.2 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+125 verbose already installed skipping compression@^1.6.2 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+126 verbose already installed skipping connect-flash@^0.1.1 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+127 verbose already installed skipping connect-mongo@^1.3.2 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+128 verbose request uri https://registry.npmjs.org/bcryptjs
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 6:34:58 PM
+131 verbose etag W/"5838114b-c914"
+132 verbose lastModified Fri, 25 Nov 2016 10:24:11 GMT
+133 http request GET https://registry.npmjs.org/bcryptjs
+134 http 304 https://registry.npmjs.org/bcryptjs
+135 verbose headers { date: 'Sat, 03 Dec 2016 23:34:58 GMT',
+135 verbose headers   via: '1.1 varnish',
+135 verbose headers   'cache-control': 'max-age=300',
+135 verbose headers   etag: 'W/"5838114b-c914"',
+135 verbose headers   age: '0',
+135 verbose headers   connection: 'keep-alive',
+135 verbose headers   'x-served-by': 'cache-yyz8327-YYZ',
+135 verbose headers   'x-cache': 'MISS',
+135 verbose headers   'x-cache-hits': '0',
+135 verbose headers   'x-timer': 'S1480808098.956717,VS0,VE345',
+135 verbose headers   vary: 'Accept-Encoding' }
+136 silly get cb [ 304,
+136 silly get   { date: 'Sat, 03 Dec 2016 23:34:58 GMT',
+136 silly get     via: '1.1 varnish',
+136 silly get     'cache-control': 'max-age=300',
+136 silly get     etag: 'W/"5838114b-c914"',
+136 silly get     age: '0',
+136 silly get     connection: 'keep-alive',
+136 silly get     'x-served-by': 'cache-yyz8327-YYZ',
+136 silly get     'x-cache': 'MISS',
+136 silly get     'x-cache-hits': '0',
+136 silly get     'x-timer': 'S1480808098.956717,VS0,VE345',
+136 silly get     vary: 'Accept-Encoding' } ]
+137 verbose etag https://registry.npmjs.org/bcryptjs from cache
+138 verbose get saving bcryptjs to /Users/temisaniwere/.npm/registry.npmjs.org/bcryptjs/.cache.json
+139 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+140 http 200 https://registry.npmjs.org/mongoose-unique-validator
+141 verbose headers { server: 'nginx/1.10.1',
+141 verbose headers   'content-type': 'application/json',
+141 verbose headers   'last-modified': 'Tue, 22 Nov 2016 19:55:03 GMT',
+141 verbose headers   etag: 'W/"5834a297-6cda"',
+141 verbose headers   'content-encoding': 'gzip',
+141 verbose headers   'cache-control': 'max-age=300',
+141 verbose headers   'content-length': '4213',
+141 verbose headers   'accept-ranges': 'bytes',
+141 verbose headers   date: 'Sat, 03 Dec 2016 23:34:59 GMT',
+141 verbose headers   via: '1.1 varnish',
+141 verbose headers   age: '0',
+141 verbose headers   connection: 'keep-alive',
+141 verbose headers   'x-served-by': 'cache-yyz8323-YYZ',
+141 verbose headers   'x-cache': 'MISS',
+141 verbose headers   'x-cache-hits': '0',
+141 verbose headers   'x-timer': 'S1480808098.957383,VS0,VE341',
+141 verbose headers   vary: 'Accept-Encoding' }
+142 silly get cb [ 200,
+142 silly get   { server: 'nginx/1.10.1',
+142 silly get     'content-type': 'application/json',
+142 silly get     'last-modified': 'Tue, 22 Nov 2016 19:55:03 GMT',
+142 silly get     etag: 'W/"5834a297-6cda"',
+142 silly get     'content-encoding': 'gzip',
+142 silly get     'cache-control': 'max-age=300',
+142 silly get     'content-length': '4213',
+142 silly get     'accept-ranges': 'bytes',
+142 silly get     date: 'Sat, 03 Dec 2016 23:34:59 GMT',
+142 silly get     via: '1.1 varnish',
+142 silly get     age: '0',
+142 silly get     connection: 'keep-alive',
+142 silly get     'x-served-by': 'cache-yyz8323-YYZ',
+142 silly get     'x-cache': 'MISS',
+142 silly get     'x-cache-hits': '0',
+142 silly get     'x-timer': 'S1480808098.957383,VS0,VE341',
+142 silly get     vary: 'Accept-Encoding' } ]
+143 verbose get saving mongoose-unique-validator to /Users/temisaniwere/.npm/registry.npmjs.org/mongoose-unique-validator/.cache.json
+144 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+145 silly addNameRange number 2 { name: 'bcryptjs', range: '>=2.3.0 <3.0.0', hasData: true }
+146 silly addNameRange versions [ 'bcryptjs',
+146 silly addNameRange   [ '0.7.5',
+146 silly addNameRange     '0.7.6',
+146 silly addNameRange     '0.7.7',
+146 silly addNameRange     '0.7.8',
+146 silly addNameRange     '0.7.10',
+146 silly addNameRange     '0.7.12',
+146 silly addNameRange     '1.0.0',
+146 silly addNameRange     '1.0.1',
+146 silly addNameRange     '1.0.2',
+146 silly addNameRange     '1.0.3',
+146 silly addNameRange     '1.0.4',
+146 silly addNameRange     '1.0.5',
+146 silly addNameRange     '1.1.0',
+146 silly addNameRange     '2.0.0',
+146 silly addNameRange     '2.0.1',
+146 silly addNameRange     '2.0.2',
+146 silly addNameRange     '2.1.0',
+146 silly addNameRange     '2.2.0',
+146 silly addNameRange     '2.2.1',
+146 silly addNameRange     '2.2.2',
+146 silly addNameRange     '2.3.0' ] ]
+147 silly addNamed bcryptjs@2.3.0
+148 verbose addNamed "2.3.0" is a plain semver version for bcryptjs
+149 silly addNameRange number 2 { name: 'mongoose-unique-validator',
+149 silly addNameRange   range: '>=1.0.3 <2.0.0',
+149 silly addNameRange   hasData: true }
+150 silly addNameRange versions [ 'mongoose-unique-validator',
+150 silly addNameRange   [ '0.1.0',
+150 silly addNameRange     '0.1.1',
+150 silly addNameRange     '0.1.2',
+150 silly addNameRange     '0.2.0',
+150 silly addNameRange     '0.3.0',
+150 silly addNameRange     '0.4.1',
+150 silly addNameRange     '0.5.0',
+150 silly addNameRange     '0.5.1',
+150 silly addNameRange     '0.6.0',
+150 silly addNameRange     '0.6.1',
+150 silly addNameRange     '0.6.2',
+150 silly addNameRange     '1.0.0',
+150 silly addNameRange     '1.0.1',
+150 silly addNameRange     '1.0.2',
+150 silly addNameRange     '1.0.3' ] ]
+151 silly addNamed mongoose-unique-validator@1.0.3
+152 verbose addNamed "1.0.3" is a plain semver version for mongoose-unique-validator
+153 silly mapToRegistry name mongoose-unique-validator
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry data Result {
+156 silly mapToRegistry   raw: 'mongoose-unique-validator',
+156 silly mapToRegistry   scope: null,
+156 silly mapToRegistry   name: 'mongoose-unique-validator',
+156 silly mapToRegistry   rawSpec: '',
+156 silly mapToRegistry   spec: 'latest',
+156 silly mapToRegistry   type: 'tag' }
+157 silly mapToRegistry uri https://registry.npmjs.org/mongoose-unique-validator
+158 verbose addRemoteTarball https://registry.npmjs.org/mongoose-unique-validator/-/mongoose-unique-validator-1.0.3.tgz not in flight; adding
+159 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose-unique-validator/-/mongoose-unique-validator-1.0.3.tgz',
+159 verbose addRemoteTarball   'a2e97da44a85f31f9d6381655ad0d4707b562bd6' ]
+160 silly cache afterAdd bcryptjs@2.3.0
+161 verbose afterAdd /Users/temisaniwere/.npm/bcryptjs/2.3.0/package/package.json not in flight; writing
+162 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+163 verbose afterAdd /Users/temisaniwere/.npm/bcryptjs/2.3.0/package/package.json written
+164 info retry fetch attempt 1 at 6:34:59 PM
+165 info attempt registry request try #1 at 6:34:59 PM
+166 http fetch GET https://registry.npmjs.org/mongoose-unique-validator/-/mongoose-unique-validator-1.0.3.tgz
+167 http fetch 200 https://registry.npmjs.org/mongoose-unique-validator/-/mongoose-unique-validator-1.0.3.tgz
+168 silly fetchAndShaCheck shasum a2e97da44a85f31f9d6381655ad0d4707b562bd6
+169 verbose addTmpTarball /var/folders/cy/5tnbcyyn7qn2v0n3md287t5w0000gn/T/npm-6090-fabb1a83/registry.npmjs.org/mongoose-unique-validator/-/mongoose-unique-validator-1.0.3.tgz not in flight; adding
+170 verbose addTmpTarball already have metadata; skipping unpack for mongoose-unique-validator@1.0.3
+171 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+172 silly cache afterAdd mongoose-unique-validator@1.0.3
+173 verbose afterAdd /Users/temisaniwere/.npm/mongoose-unique-validator/1.0.3/package/package.json not in flight; writing
+174 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+175 verbose afterAdd /Users/temisaniwere/.npm/mongoose-unique-validator/1.0.3/package/package.json written
+176 silly install resolved [ { name: 'bcryptjs',
+176 silly install resolved     description: 'Optimized bcrypt in plain JavaScript with zero dependencies. Compatible to \'bcrypt\'.',
+176 silly install resolved     version: '2.3.0',
+176 silly install resolved     author: { name: 'Daniel Wirtz', email: 'dcode@dcode.io' },
+176 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+176 silly install resolved     repository:
+176 silly install resolved      { type: 'url',
+176 silly install resolved        url: 'git+https://github.com/dcodeIO/bcrypt.js.git' },
+176 silly install resolved     bugs: { url: 'https://github.com/dcodeIO/bcrypt.js/issues' },
+176 silly install resolved     keywords:
+176 silly install resolved      [ 'bcrypt',
+176 silly install resolved        'password',
+176 silly install resolved        'auth',
+176 silly install resolved        'authentication',
+176 silly install resolved        'encryption',
+176 silly install resolved        'crypt',
+176 silly install resolved        'crypto' ],
+176 silly install resolved     main: 'index.js',
+176 silly install resolved     browser: 'dist/bcrypt.js',
+176 silly install resolved     dependencies: {},
+176 silly install resolved     devDependencies:
+176 silly install resolved      { testjs: '~1',
+176 silly install resolved        closurecompiler: '~1',
+176 silly install resolved        metascript: '~0.18',
+176 silly install resolved        bcrypt: 'latest',
+176 silly install resolved        utfx: '~1' },
+176 silly install resolved     license: 'MIT',
+176 silly install resolved     scripts:
+176 silly install resolved      { test: 'node node_modules/testjs/bin/testjs',
+176 silly install resolved        build: 'node scripts/build.js',
+176 silly install resolved        compile: 'node node_modules/closurecompiler/bin/ccjs dist/bcrypt.js --compilation_level=ADVANCED_OPTIMIZATIONS --create_source_map=dist/bcrypt.min.map --externs=externs/minimal-env.js --output_wrapper="(function(){%output%})();" > dist/bcrypt.min.js',
+176 silly install resolved        compress: 'gzip -c -9 dist/bcrypt.min.js > dist/bcrypt.min.js.gz',
+176 silly install resolved        make: 'npm run-script build && npm run-script compile && npm test' },
+176 silly install resolved     gitHead: '89c19400dcc9ca77b9f768bd79a6700eb764a1da',
+176 silly install resolved     homepage: 'https://github.com/dcodeIO/bcrypt.js#readme',
+176 silly install resolved     _id: 'bcryptjs@2.3.0',
+176 silly install resolved     _shasum: '5826900cfef7abaf3425c72e4d464de509b8c2ec',
+176 silly install resolved     _from: 'bcryptjs@>=2.3.0 <3.0.0',
+176 silly install resolved     _npmVersion: '2.11.3',
+176 silly install resolved     _nodeVersion: '0.12.7',
+176 silly install resolved     _npmUser: { name: 'dcode', email: 'dcode@dcode.io' },
+176 silly install resolved     maintainers: [ [Object] ],
+176 silly install resolved     dist:
+176 silly install resolved      { shasum: '5826900cfef7abaf3425c72e4d464de509b8c2ec',
+176 silly install resolved        tarball: 'https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.3.0.tgz' },
+176 silly install resolved     directories: {},
+176 silly install resolved     _resolved: 'https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.3.0.tgz',
+176 silly install resolved     readme: 'ERROR: No README data found!' },
+176 silly install resolved   { name: 'mongoose-unique-validator',
+176 silly install resolved     version: '1.0.3',
+176 silly install resolved     description: 'mongoose-unique-validator is a plugin which adds pre-save validation for unique fields within a Mongoose schema.',
+176 silly install resolved     main: 'index.js',
+176 silly install resolved     scripts:
+176 silly install resolved      { test: 'mocha test && ./node_modules/eslint/bin/eslint.js index.js test',
+176 silly install resolved        lint: 'eslint index.js test' },
+176 silly install resolved     keywords: [ 'mongoose', 'unique', 'validator' ],
+176 silly install resolved     author:
+176 silly install resolved      { name: 'Blake Haswell',
+176 silly install resolved        email: 'haswell00@gmail.com',
+176 silly install resolved        url: 'http://blakehaswell.com/' },
+176 silly install resolved     contributors: [ [Object] ],
+176 silly install resolved     license: 'MIT',
+176 silly install resolved     repository:
+176 silly install resolved      { type: 'git',
+176 silly install resolved        url: 'git+https://github.com/blakehaswell/mongoose-unique-validator.git' },
+176 silly install resolved     devDependencies:
+176 silly install resolved      { bluebird: '^3.2.2',
+176 silly install resolved        chai: '^3.3.0',
+176 silly install resolved        eslint: '^3.10.2',
+176 silly install resolved        mocha: '^3.1.2' },
+176 silly install resolved     peerDependencies: { mongoose: '^4.6.8' },
+176 silly install resolved     dependencies: { 'lodash.foreach': '^4.1.0', 'lodash.get': '^4.0.2' },
+176 silly install resolved     gitHead: '1739d2aeafa7624f0258a08b0ffe13f0fadc3531',
+176 silly install resolved     bugs: { url: 'https://github.com/blakehaswell/mongoose-unique-validator/issues' },
+176 silly install resolved     homepage: 'https://github.com/blakehaswell/mongoose-unique-validator#readme',
+176 silly install resolved     _id: 'mongoose-unique-validator@1.0.3',
+176 silly install resolved     _shasum: 'a2e97da44a85f31f9d6381655ad0d4707b562bd6',
+176 silly install resolved     _from: 'mongoose-unique-validator@>=1.0.3 <2.0.0',
+176 silly install resolved     _npmVersion: '3.10.8',
+176 silly install resolved     _nodeVersion: '6.1.0',
+176 silly install resolved     _npmUser: { name: 'viveleroi', email: 'botsko@gmail.com' },
+176 silly install resolved     dist:
+176 silly install resolved      { shasum: 'a2e97da44a85f31f9d6381655ad0d4707b562bd6',
+176 silly install resolved        tarball: 'https://registry.npmjs.org/mongoose-unique-validator/-/mongoose-unique-validator-1.0.3.tgz' },
+176 silly install resolved     maintainers: [ [Object], [Object] ],
+176 silly install resolved     _npmOperationalInternal:
+176 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+176 silly install resolved        tmp: 'tmp/mongoose-unique-validator-1.0.3.tgz_1479844501654_0.7119452864862978' },
+176 silly install resolved     directories: {},
+176 silly install resolved     _resolved: 'https://registry.npmjs.org/mongoose-unique-validator/-/mongoose-unique-validator-1.0.3.tgz' } ]
+177 info install bcryptjs@2.3.0 into /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+178 info install mongoose-unique-validator@1.0.3 into /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+179 info installOne bcryptjs@2.3.0
+180 verbose installOne of bcryptjs to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project not in flight; installing
+181 verbose correctMkdir /Users/temisaniwere/.npm/_locks correctMkdir not in flight; initializing
+182 info installOne mongoose-unique-validator@1.0.3
+183 verbose installOne of mongoose-unique-validator to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project not in flight; installing
+184 verbose correctMkdir /Users/temisaniwere/.npm/_locks correctMkdir already in flight; waiting
+185 verbose lock using /Users/temisaniwere/.npm/_locks/bcryptjs-4a9db7594fbec5c9.lock for /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs
+186 verbose lock using /Users/temisaniwere/.npm/_locks/mongoose-unique-validato-4a303018a74f68ca.lock for /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+187 silly install write writing bcryptjs 2.3.0 to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs
+188 silly install write writing mongoose-unique-validator 1.0.3 to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+189 verbose unbuild node_modules/bcryptjs
+190 verbose unbuild node_modules/mongoose-unique-validator
+191 silly gentlyRm /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs is being purged from base /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+192 verbose gentlyRm don't care about contents; nuking /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs
+193 verbose tar unpack /Users/temisaniwere/.npm/bcryptjs/2.3.0/package.tgz
+194 verbose tar unpacking to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs
+195 silly gentlyRm /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs is being purged
+196 verbose gentlyRm don't care about contents; nuking /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs
+197 silly gentlyRm /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator is being purged from base /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+198 verbose gentlyRm don't care about contents; nuking /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+199 silly gunzTarPerm modes [ '755', '644' ]
+200 verbose tar unpack /Users/temisaniwere/.npm/mongoose-unique-validator/1.0.3/package.tgz
+201 verbose tar unpacking to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+202 silly gentlyRm /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator is being purged
+203 verbose gentlyRm don't care about contents; nuking /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+204 silly gunzTarPerm modes [ '755', '644' ]
+205 silly gunzTarPerm extractEntry package.json
+206 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+207 silly gunzTarPerm extractEntry package.json
+208 silly gunzTarPerm extractEntry .npmignore
+209 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+210 silly gunzTarPerm extractEntry README.md
+211 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+212 silly gunzTarPerm extractEntry .npmignore
+213 silly gunzTarPerm extractEntry README.md
+214 silly gunzTarPerm extractEntry index.js
+215 silly gunzTarPerm extractEntry CONTRIBUTING.md
+216 silly gunzTarPerm extractEntry LICENSE
+217 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+218 silly gunzTarPerm extractEntry index.js
+219 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+220 silly gunzTarPerm extractEntry CHANGELOG.md
+221 silly gunzTarPerm extractEntry .eslintrc
+222 silly gunzTarPerm extractEntry dist/README.md
+223 silly gunzTarPerm modified mode [ 'dist/README.md', 438, 420 ]
+224 silly gunzTarPerm extractEntry dist/bcrypt.js
+225 silly gunzTarPerm modified mode [ 'dist/bcrypt.js', 438, 420 ]
+226 silly gunzTarPerm extractEntry .editorconfig
+227 silly gunzTarPerm extractEntry dist/bcrypt.min.js
+228 silly gunzTarPerm modified mode [ 'dist/bcrypt.min.js', 438, 420 ]
+229 silly gunzTarPerm extractEntry dist/bcrypt.min.js.gz
+230 silly gunzTarPerm modified mode [ 'dist/bcrypt.min.js.gz', 438, 420 ]
+231 silly gunzTarPerm extractEntry .travis.yml
+232 silly gunzTarPerm extractEntry test/helpers.js
+233 silly gunzTarPerm extractEntry dist/bcrypt.min.map
+234 silly gunzTarPerm modified mode [ 'dist/bcrypt.min.map', 438, 420 ]
+235 silly gunzTarPerm extractEntry bin/bcrypt
+236 silly gunzTarPerm modified mode [ 'bin/bcrypt', 438, 420 ]
+237 silly gunzTarPerm extractEntry test/index.spec.js
+238 silly gunzTarPerm extractEntry test/tests/messages.spec.js
+239 silly gunzTarPerm extractEntry bower.json
+240 silly gunzTarPerm modified mode [ 'bower.json', 438, 420 ]
+241 silly gunzTarPerm extractEntry externs/bcrypt.js
+242 silly gunzTarPerm modified mode [ 'externs/bcrypt.js', 438, 420 ]
+243 silly gunzTarPerm extractEntry test/tests/types.spec.js
+244 silly gunzTarPerm extractEntry test/tests/validation.spec.js
+245 silly gunzTarPerm extractEntry externs/minimal-env.js
+246 silly gunzTarPerm modified mode [ 'externs/minimal-env.js', 438, 420 ]
+247 silly gunzTarPerm extractEntry src/bcrypt.js
+248 silly gunzTarPerm modified mode [ 'src/bcrypt.js', 438, 420 ]
+249 silly gunzTarPerm extractEntry src/wrap.js
+250 silly gunzTarPerm modified mode [ 'src/wrap.js', 438, 420 ]
+251 silly gunzTarPerm extractEntry src/bcrypt/impl.js
+252 silly gunzTarPerm modified mode [ 'src/bcrypt/impl.js', 438, 420 ]
+253 silly gunzTarPerm extractEntry src/bcrypt/util.js
+254 silly gunzTarPerm modified mode [ 'src/bcrypt/util.js', 438, 420 ]
+255 silly gunzTarPerm extractEntry src/bcrypt/prng/README.md
+256 silly gunzTarPerm modified mode [ 'src/bcrypt/prng/README.md', 438, 420 ]
+257 silly gunzTarPerm extractEntry src/bcrypt/prng/accum.js
+258 silly gunzTarPerm modified mode [ 'src/bcrypt/prng/accum.js', 438, 420 ]
+259 silly gunzTarPerm extractEntry src/bcrypt/prng/isaac.js
+260 silly gunzTarPerm modified mode [ 'src/bcrypt/prng/isaac.js', 438, 420 ]
+261 silly gunzTarPerm extractEntry src/bcrypt/util/base64.js
+262 silly gunzTarPerm modified mode [ 'src/bcrypt/util/base64.js', 438, 420 ]
+263 silly gunzTarPerm extractEntry src/bower.json
+264 silly gunzTarPerm modified mode [ 'src/bower.json', 438, 420 ]
+265 silly gunzTarPerm extractEntry .travis.yml
+266 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+267 silly gunzTarPerm extractEntry scripts/build.js
+268 silly gunzTarPerm modified mode [ 'scripts/build.js', 438, 420 ]
+269 silly gunzTarPerm extractEntry tests/suite.js
+270 silly gunzTarPerm modified mode [ 'tests/suite.js', 438, 420 ]
+271 silly gunzTarPerm extractEntry tests/quickbrown.txt
+272 silly gunzTarPerm modified mode [ 'tests/quickbrown.txt', 438, 420 ]
+273 verbose write writing to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/package.json
+274 info preinstall mongoose-unique-validator@1.0.3
+275 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/package.json
+276 silly prepareForInstallMany adding lodash.foreach@^4.1.0 from mongoose-unique-validator dependencies
+277 silly prepareForInstallMany adding lodash.get@^4.0.2 from mongoose-unique-validator dependencies
+278 silly prepareForInstallMany adding mongoose@^4.6.8 from mongoose-unique-validator peerDependencies
+279 warn peerDependencies The peer dependency mongoose@^4.6.8 included from mongoose-unique-validator will no
+280 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+281 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+282 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/package.json
+283 silly cache add args [ 'lodash.foreach@^4.1.0', null ]
+284 verbose cache add spec lodash.foreach@^4.1.0
+285 silly cache add args [ 'lodash.get@^4.0.2', null ]
+286 verbose cache add spec lodash.get@^4.0.2
+287 silly cache add parsed spec Result {
+287 silly cache add   raw: 'lodash.foreach@^4.1.0',
+287 silly cache add   scope: null,
+287 silly cache add   name: 'lodash.foreach',
+287 silly cache add   rawSpec: '^4.1.0',
+287 silly cache add   spec: '>=4.1.0 <5.0.0',
+287 silly cache add   type: 'range' }
+288 silly addNamed lodash.foreach@>=4.1.0 <5.0.0
+289 verbose addNamed ">=4.1.0 <5.0.0" is a valid semver range for lodash.foreach
+290 silly addNameRange { name: 'lodash.foreach',
+290 silly addNameRange   range: '>=4.1.0 <5.0.0',
+290 silly addNameRange   hasData: false }
+291 silly mapToRegistry name lodash.foreach
+292 silly mapToRegistry using default registry
+293 silly mapToRegistry registry https://registry.npmjs.org/
+294 silly mapToRegistry data Result {
+294 silly mapToRegistry   raw: 'lodash.foreach',
+294 silly mapToRegistry   scope: null,
+294 silly mapToRegistry   name: 'lodash.foreach',
+294 silly mapToRegistry   rawSpec: '',
+294 silly mapToRegistry   spec: 'latest',
+294 silly mapToRegistry   type: 'tag' }
+295 silly mapToRegistry uri https://registry.npmjs.org/lodash.foreach
+296 verbose addNameRange registry:https://registry.npmjs.org/lodash.foreach not in flight; fetching
+297 silly cache add parsed spec Result {
+297 silly cache add   raw: 'lodash.get@^4.0.2',
+297 silly cache add   scope: null,
+297 silly cache add   name: 'lodash.get',
+297 silly cache add   rawSpec: '^4.0.2',
+297 silly cache add   spec: '>=4.0.2 <5.0.0',
+297 silly cache add   type: 'range' }
+298 silly addNamed lodash.get@>=4.0.2 <5.0.0
+299 verbose addNamed ">=4.0.2 <5.0.0" is a valid semver range for lodash.get
+300 silly addNameRange { name: 'lodash.get', range: '>=4.0.2 <5.0.0', hasData: false }
+301 silly mapToRegistry name lodash.get
+302 silly mapToRegistry using default registry
+303 silly mapToRegistry registry https://registry.npmjs.org/
+304 silly mapToRegistry data Result {
+304 silly mapToRegistry   raw: 'lodash.get',
+304 silly mapToRegistry   scope: null,
+304 silly mapToRegistry   name: 'lodash.get',
+304 silly mapToRegistry   rawSpec: '',
+304 silly mapToRegistry   spec: 'latest',
+304 silly mapToRegistry   type: 'tag' }
+305 silly mapToRegistry uri https://registry.npmjs.org/lodash.get
+306 verbose addNameRange registry:https://registry.npmjs.org/lodash.get not in flight; fetching
+307 verbose request uri https://registry.npmjs.org/lodash.foreach
+308 verbose request no auth needed
+309 info attempt registry request try #1 at 6:34:59 PM
+310 http request GET https://registry.npmjs.org/lodash.foreach
+311 verbose request uri https://registry.npmjs.org/lodash.get
+312 verbose request no auth needed
+313 info attempt registry request try #1 at 6:34:59 PM
+314 http request GET https://registry.npmjs.org/lodash.get
+315 verbose write writing to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs/package.json
+316 info preinstall bcryptjs@2.3.0
+317 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs/package.json
+318 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs/package.json
+319 silly install resolved []
+320 verbose about to build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs
+321 info build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs
+322 info linkStuff bcryptjs@2.3.0
+323 silly linkStuff bcryptjs@2.3.0 has /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules as its parent node_modules
+324 verbose linkBins bcryptjs@2.3.0
+325 verbose linkMans bcryptjs@2.3.0
+326 verbose rebuildBundles bcryptjs@2.3.0
+327 info install bcryptjs@2.3.0
+328 info postinstall bcryptjs@2.3.0
+329 verbose unlock done using /Users/temisaniwere/.npm/_locks/bcryptjs-4a9db7594fbec5c9.lock for /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs
+330 http 200 https://registry.npmjs.org/lodash.foreach
+331 verbose headers { server: 'nginx/1.10.1',
+331 verbose headers   'content-type': 'application/json',
+331 verbose headers   'last-modified': 'Thu, 06 Oct 2016 16:46:49 GMT',
+331 verbose headers   etag: 'W/"57f67ff9-7fe2"',
+331 verbose headers   'content-encoding': 'gzip',
+331 verbose headers   'cache-control': 'max-age=300',
+331 verbose headers   'content-length': '3066',
+331 verbose headers   'accept-ranges': 'bytes',
+331 verbose headers   date: 'Sat, 03 Dec 2016 23:34:59 GMT',
+331 verbose headers   via: '1.1 varnish',
+331 verbose headers   age: '0',
+331 verbose headers   connection: 'keep-alive',
+331 verbose headers   'x-served-by': 'cache-yyz8327-YYZ',
+331 verbose headers   'x-cache': 'HIT',
+331 verbose headers   'x-cache-hits': '1',
+331 verbose headers   'x-timer': 'S1480808099.557557,VS0,VE77',
+331 verbose headers   vary: 'Accept-Encoding' }
+332 silly get cb [ 200,
+332 silly get   { server: 'nginx/1.10.1',
+332 silly get     'content-type': 'application/json',
+332 silly get     'last-modified': 'Thu, 06 Oct 2016 16:46:49 GMT',
+332 silly get     etag: 'W/"57f67ff9-7fe2"',
+332 silly get     'content-encoding': 'gzip',
+332 silly get     'cache-control': 'max-age=300',
+332 silly get     'content-length': '3066',
+332 silly get     'accept-ranges': 'bytes',
+332 silly get     date: 'Sat, 03 Dec 2016 23:34:59 GMT',
+332 silly get     via: '1.1 varnish',
+332 silly get     age: '0',
+332 silly get     connection: 'keep-alive',
+332 silly get     'x-served-by': 'cache-yyz8327-YYZ',
+332 silly get     'x-cache': 'HIT',
+332 silly get     'x-cache-hits': '1',
+332 silly get     'x-timer': 'S1480808099.557557,VS0,VE77',
+332 silly get     vary: 'Accept-Encoding' } ]
+333 verbose get saving lodash.foreach to /Users/temisaniwere/.npm/registry.npmjs.org/lodash.foreach/.cache.json
+334 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+335 silly addNameRange number 2 { name: 'lodash.foreach',
+335 silly addNameRange   range: '>=4.1.0 <5.0.0',
+335 silly addNameRange   hasData: true }
+336 silly addNameRange versions [ 'lodash.foreach',
+336 silly addNameRange   [ '2.0.0',
+336 silly addNameRange     '2.1.0',
+336 silly addNameRange     '2.2.0',
+336 silly addNameRange     '2.2.1',
+336 silly addNameRange     '2.3.0',
+336 silly addNameRange     '2.4.0',
+336 silly addNameRange     '2.4.1',
+336 silly addNameRange     '3.0.0',
+336 silly addNameRange     '3.0.1',
+336 silly addNameRange     '3.0.2',
+336 silly addNameRange     '3.0.3',
+336 silly addNameRange     '4.0.0',
+336 silly addNameRange     '4.1.0',
+336 silly addNameRange     '4.1.1',
+336 silly addNameRange     '4.2.0',
+336 silly addNameRange     '4.3.0',
+336 silly addNameRange     '4.4.0',
+336 silly addNameRange     '4.4.1',
+336 silly addNameRange     '4.5.0' ] ]
+337 silly addNamed lodash.foreach@4.5.0
+338 verbose addNamed "4.5.0" is a plain semver version for lodash.foreach
+339 silly mapToRegistry name lodash.foreach
+340 silly mapToRegistry using default registry
+341 silly mapToRegistry registry https://registry.npmjs.org/
+342 silly mapToRegistry data Result {
+342 silly mapToRegistry   raw: 'lodash.foreach',
+342 silly mapToRegistry   scope: null,
+342 silly mapToRegistry   name: 'lodash.foreach',
+342 silly mapToRegistry   rawSpec: '',
+342 silly mapToRegistry   spec: 'latest',
+342 silly mapToRegistry   type: 'tag' }
+343 silly mapToRegistry uri https://registry.npmjs.org/lodash.foreach
+344 verbose addRemoteTarball https://registry.npmjs.org/lodash.foreach/-/lodash.foreach-4.5.0.tgz not in flight; adding
+345 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash.foreach/-/lodash.foreach-4.5.0.tgz',
+345 verbose addRemoteTarball   '1a6a35eace401280c7f06dddec35165ab27e3e53' ]
+346 info retry fetch attempt 1 at 6:34:59 PM
+347 info attempt registry request try #1 at 6:34:59 PM
+348 http fetch GET https://registry.npmjs.org/lodash.foreach/-/lodash.foreach-4.5.0.tgz
+349 http fetch 200 https://registry.npmjs.org/lodash.foreach/-/lodash.foreach-4.5.0.tgz
+350 silly fetchAndShaCheck shasum 1a6a35eace401280c7f06dddec35165ab27e3e53
+351 verbose addTmpTarball /var/folders/cy/5tnbcyyn7qn2v0n3md287t5w0000gn/T/npm-6090-fabb1a83/registry.npmjs.org/lodash.foreach/-/lodash.foreach-4.5.0.tgz not in flight; adding
+352 verbose addTmpTarball already have metadata; skipping unpack for lodash.foreach@4.5.0
+353 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+354 silly cache afterAdd lodash.foreach@4.5.0
+355 verbose afterAdd /Users/temisaniwere/.npm/lodash.foreach/4.5.0/package/package.json not in flight; writing
+356 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+357 verbose afterAdd /Users/temisaniwere/.npm/lodash.foreach/4.5.0/package/package.json written
+358 http 200 https://registry.npmjs.org/lodash.get
+359 verbose headers { server: 'nginx/1.10.1',
+359 verbose headers   'content-type': 'application/json',
+359 verbose headers   'last-modified': 'Thu, 06 Oct 2016 16:47:06 GMT',
+359 verbose headers   etag: 'W/"57f6800a-55fc"',
+359 verbose headers   'content-encoding': 'gzip',
+359 verbose headers   'cache-control': 'max-age=300',
+359 verbose headers   'content-length': '2502',
+359 verbose headers   'accept-ranges': 'bytes',
+359 verbose headers   date: 'Sat, 03 Dec 2016 23:34:59 GMT',
+359 verbose headers   via: '1.1 varnish',
+359 verbose headers   age: '0',
+359 verbose headers   connection: 'keep-alive',
+359 verbose headers   'x-served-by': 'cache-yyz8323-YYZ',
+359 verbose headers   'x-cache': 'HIT',
+359 verbose headers   'x-cache-hits': '1',
+359 verbose headers   'x-timer': 'S1480808099.560327,VS0,VE344',
+359 verbose headers   vary: 'Accept-Encoding' }
+360 silly get cb [ 200,
+360 silly get   { server: 'nginx/1.10.1',
+360 silly get     'content-type': 'application/json',
+360 silly get     'last-modified': 'Thu, 06 Oct 2016 16:47:06 GMT',
+360 silly get     etag: 'W/"57f6800a-55fc"',
+360 silly get     'content-encoding': 'gzip',
+360 silly get     'cache-control': 'max-age=300',
+360 silly get     'content-length': '2502',
+360 silly get     'accept-ranges': 'bytes',
+360 silly get     date: 'Sat, 03 Dec 2016 23:34:59 GMT',
+360 silly get     via: '1.1 varnish',
+360 silly get     age: '0',
+360 silly get     connection: 'keep-alive',
+360 silly get     'x-served-by': 'cache-yyz8323-YYZ',
+360 silly get     'x-cache': 'HIT',
+360 silly get     'x-cache-hits': '1',
+360 silly get     'x-timer': 'S1480808099.560327,VS0,VE344',
+360 silly get     vary: 'Accept-Encoding' } ]
+361 verbose get saving lodash.get to /Users/temisaniwere/.npm/registry.npmjs.org/lodash.get/.cache.json
+362 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+363 silly addNameRange number 2 { name: 'lodash.get', range: '>=4.0.2 <5.0.0', hasData: true }
+364 silly addNameRange versions [ 'lodash.get',
+364 silly addNameRange   [ '3.7.0',
+364 silly addNameRange     '4.0.0',
+364 silly addNameRange     '4.0.1',
+364 silly addNameRange     '4.0.2',
+364 silly addNameRange     '4.1.0',
+364 silly addNameRange     '4.1.1',
+364 silly addNameRange     '4.1.2',
+364 silly addNameRange     '4.2.0',
+364 silly addNameRange     '4.2.1',
+364 silly addNameRange     '4.3.0',
+364 silly addNameRange     '4.4.0',
+364 silly addNameRange     '4.4.1',
+364 silly addNameRange     '4.4.2' ] ]
+365 silly addNamed lodash.get@4.4.2
+366 verbose addNamed "4.4.2" is a plain semver version for lodash.get
+367 silly mapToRegistry name lodash.get
+368 silly mapToRegistry using default registry
+369 silly mapToRegistry registry https://registry.npmjs.org/
+370 silly mapToRegistry data Result {
+370 silly mapToRegistry   raw: 'lodash.get',
+370 silly mapToRegistry   scope: null,
+370 silly mapToRegistry   name: 'lodash.get',
+370 silly mapToRegistry   rawSpec: '',
+370 silly mapToRegistry   spec: 'latest',
+370 silly mapToRegistry   type: 'tag' }
+371 silly mapToRegistry uri https://registry.npmjs.org/lodash.get
+372 verbose addRemoteTarball https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz not in flight; adding
+373 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz',
+373 verbose addRemoteTarball   '2d177f652fa31e939b4438d5341499dfa3825e99' ]
+374 info retry fetch attempt 1 at 6:34:59 PM
+375 info attempt registry request try #1 at 6:34:59 PM
+376 http fetch GET https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz
+377 http fetch 200 https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz
+378 silly fetchAndShaCheck shasum 2d177f652fa31e939b4438d5341499dfa3825e99
+379 verbose addTmpTarball /var/folders/cy/5tnbcyyn7qn2v0n3md287t5w0000gn/T/npm-6090-fabb1a83/registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz not in flight; adding
+380 verbose addTmpTarball already have metadata; skipping unpack for lodash.get@4.4.2
+381 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+382 silly cache afterAdd lodash.get@4.4.2
+383 verbose afterAdd /Users/temisaniwere/.npm/lodash.get/4.4.2/package/package.json not in flight; writing
+384 verbose correctMkdir /Users/temisaniwere/.npm correctMkdir not in flight; initializing
+385 verbose afterAdd /Users/temisaniwere/.npm/lodash.get/4.4.2/package/package.json written
+386 silly install resolved [ { name: 'lodash.foreach',
+386 silly install resolved     version: '4.5.0',
+386 silly install resolved     description: 'The lodash method `_.forEach` exported as a module.',
+386 silly install resolved     homepage: 'https://lodash.com/',
+386 silly install resolved     icon: 'https://lodash.com/icon.svg',
+386 silly install resolved     license: 'MIT',
+386 silly install resolved     keywords: [ 'lodash-modularized', 'foreach' ],
+386 silly install resolved     author:
+386 silly install resolved      { name: 'John-David Dalton',
+386 silly install resolved        email: 'john.david.dalton@gmail.com',
+386 silly install resolved        url: 'http://allyoucanleet.com/' },
+386 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+386 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+386 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+386 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+386 silly install resolved     _id: 'lodash.foreach@4.5.0',
+386 silly install resolved     _shasum: '1a6a35eace401280c7f06dddec35165ab27e3e53',
+386 silly install resolved     _from: 'lodash.foreach@>=4.1.0 <5.0.0',
+386 silly install resolved     _npmVersion: '2.15.10',
+386 silly install resolved     _nodeVersion: '4.4.7',
+386 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+386 silly install resolved     dist:
+386 silly install resolved      { shasum: '1a6a35eace401280c7f06dddec35165ab27e3e53',
+386 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.foreach/-/lodash.foreach-4.5.0.tgz' },
+386 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+386 silly install resolved     _npmOperationalInternal:
+386 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+386 silly install resolved        tmp: 'tmp/lodash.foreach-4.5.0.tgz_1471109942429_0.9202213890384883' },
+386 silly install resolved     directories: {},
+386 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.foreach/-/lodash.foreach-4.5.0.tgz' },
+386 silly install resolved   { name: 'lodash.get',
+386 silly install resolved     version: '4.4.2',
+386 silly install resolved     description: 'The lodash method `_.get` exported as a module.',
+386 silly install resolved     homepage: 'https://lodash.com/',
+386 silly install resolved     icon: 'https://lodash.com/icon.svg',
+386 silly install resolved     license: 'MIT',
+386 silly install resolved     keywords: [ 'lodash-modularized', 'get' ],
+386 silly install resolved     author:
+386 silly install resolved      { name: 'John-David Dalton',
+386 silly install resolved        email: 'john.david.dalton@gmail.com',
+386 silly install resolved        url: 'http://allyoucanleet.com/' },
+386 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+386 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+386 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+386 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+386 silly install resolved     _id: 'lodash.get@4.4.2',
+386 silly install resolved     _shasum: '2d177f652fa31e939b4438d5341499dfa3825e99',
+386 silly install resolved     _from: 'lodash.get@>=4.0.2 <5.0.0',
+386 silly install resolved     _npmVersion: '2.15.10',
+386 silly install resolved     _nodeVersion: '4.4.7',
+386 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+386 silly install resolved     dist:
+386 silly install resolved      { shasum: '2d177f652fa31e939b4438d5341499dfa3825e99',
+386 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz' },
+386 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+386 silly install resolved     _npmOperationalInternal:
+386 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+386 silly install resolved        tmp: 'tmp/lodash.get-4.4.2.tgz_1471109964075_0.3515763762407005' },
+386 silly install resolved     directories: {},
+386 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz' } ]
+387 info install lodash.foreach@4.5.0 into /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+388 info install lodash.get@4.4.2 into /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+389 info installOne lodash.foreach@4.5.0
+390 verbose installOne of lodash.foreach to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator not in flight; installing
+391 verbose correctMkdir /Users/temisaniwere/.npm/_locks correctMkdir not in flight; initializing
+392 info installOne lodash.get@4.4.2
+393 verbose installOne of lodash.get to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator not in flight; installing
+394 verbose correctMkdir /Users/temisaniwere/.npm/_locks correctMkdir not in flight; initializing
+395 verbose lock using /Users/temisaniwere/.npm/_locks/lodash-foreach-26caabede89402ab.lock for /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach
+396 verbose lock using /Users/temisaniwere/.npm/_locks/lodash-get-e2f526da8d2aea1b.lock for /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get
+397 silly install write writing lodash.foreach 4.5.0 to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach
+398 silly install write writing lodash.get 4.4.2 to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get
+399 verbose unbuild node_modules/mongoose-unique-validator/node_modules/lodash.foreach
+400 verbose unbuild node_modules/mongoose-unique-validator/node_modules/lodash.get
+401 silly gentlyRm /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach is being purged from base /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+402 verbose gentlyRm don't care about contents; nuking /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach
+403 silly gentlyRm /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get is being purged from base /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+404 verbose gentlyRm don't care about contents; nuking /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get
+405 verbose tar unpack /Users/temisaniwere/.npm/lodash.foreach/4.5.0/package.tgz
+406 verbose tar unpacking to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach
+407 silly gentlyRm /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach is being purged
+408 verbose gentlyRm don't care about contents; nuking /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach
+409 verbose tar unpack /Users/temisaniwere/.npm/lodash.get/4.4.2/package.tgz
+410 verbose tar unpacking to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get
+411 silly gentlyRm /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get is being purged
+412 verbose gentlyRm don't care about contents; nuking /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get
+413 silly gunzTarPerm modes [ '755', '644' ]
+414 silly gunzTarPerm modes [ '755', '644' ]
+415 silly gunzTarPerm extractEntry package.json
+416 silly gunzTarPerm extractEntry package.json
+417 silly gunzTarPerm extractEntry README.md
+418 silly gunzTarPerm extractEntry LICENSE
+419 silly gunzTarPerm extractEntry README.md
+420 silly gunzTarPerm extractEntry LICENSE
+421 silly gunzTarPerm extractEntry index.js
+422 silly gunzTarPerm extractEntry index.js
+423 verbose write writing to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach/package.json
+424 verbose write writing to /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get/package.json
+425 info preinstall lodash.foreach@4.5.0
+426 info preinstall lodash.get@4.4.2
+427 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach/package.json
+428 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get/package.json
+429 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach/package.json
+430 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get/package.json
+431 silly install resolved []
+432 verbose about to build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach
+433 info build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach
+434 silly install resolved []
+435 verbose about to build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get
+436 info build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get
+437 info linkStuff lodash.foreach@4.5.0
+438 silly linkStuff lodash.foreach@4.5.0 has /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules as its parent node_modules
+439 info linkStuff lodash.get@4.4.2
+440 silly linkStuff lodash.get@4.4.2 has /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules as its parent node_modules
+441 verbose linkBins lodash.foreach@4.5.0
+442 verbose linkMans lodash.foreach@4.5.0
+443 verbose rebuildBundles lodash.foreach@4.5.0
+444 info install lodash.foreach@4.5.0
+445 verbose linkBins lodash.get@4.4.2
+446 verbose linkMans lodash.get@4.4.2
+447 verbose rebuildBundles lodash.get@4.4.2
+448 info install lodash.get@4.4.2
+449 info postinstall lodash.foreach@4.5.0
+450 info postinstall lodash.get@4.4.2
+451 verbose unlock done using /Users/temisaniwere/.npm/_locks/lodash-foreach-26caabede89402ab.lock for /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.foreach
+452 verbose unlock done using /Users/temisaniwere/.npm/_locks/lodash-get-e2f526da8d2aea1b.lock for /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/node_modules/lodash.get
+453 verbose about to build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+454 info build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+455 info linkStuff mongoose-unique-validator@1.0.3
+456 silly linkStuff mongoose-unique-validator@1.0.3 has /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules as its parent node_modules
+457 verbose linkBins mongoose-unique-validator@1.0.3
+458 verbose linkMans mongoose-unique-validator@1.0.3
+459 verbose rebuildBundles mongoose-unique-validator@1.0.3
+460 verbose rebuildBundles [ 'lodash.foreach', 'lodash.get' ]
+461 info install mongoose-unique-validator@1.0.3
+462 info postinstall mongoose-unique-validator@1.0.3
+463 verbose readDependencies loading dependencies from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/package.json
+464 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcrypt/package.json
+465 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcryptjs/package.json
+466 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/body-parser/package.json
+467 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/compression/package.json
+468 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/connect-flash/package.json
+469 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/connect-mongo/package.json
+470 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/cookie-parser/package.json
+471 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/debug/package.json
+472 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/express/package.json
+473 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/express-session/package.json
+474 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/feed-read-parser/package.json
+475 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/gulp/package.json
+476 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/gulp-autoprefixer/package.json
+477 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/gulp-sass/package.json
+478 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/helmet/package.json
+479 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/hjs/package.json
+480 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/iconv-lite/package.json
+481 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/less-middleware/package.json
+482 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongojs/package.json
+483 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose/package.json
+484 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator/package.json
+485 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/morgan/package.json
+486 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/node-sass/package.json
+487 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/nodemon/package.json
+488 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport/package.json
+489 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport-facebook/package.json
+490 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport-google-oauth/package.json
+491 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/passport-local/package.json
+492 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/request-json/package.json
+493 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/serve-favicon/package.json
+494 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin/gulp/package.json
+495 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin/node-sass/package.json
+496 verbose targetResolver reading package data from /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin/nodemon/package.json
+497 verbose already installed skipping mongoose@^4.6.8 /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+498 silly install resolved []
+499 verbose unlock done using /Users/temisaniwere/.npm/_locks/mongoose-unique-validato-4a303018a74f68ca.lock for /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/mongoose-unique-validator
+500 info build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+501 info linkStuff fit-app@0.0.0
+502 silly linkStuff fit-app@0.0.0 has /Users/temisaniwere/Documents/CSC301/project/project-team-13 as its parent node_modules
+503 verbose linkBins fit-app@0.0.0
+504 verbose linkMans fit-app@0.0.0
+505 verbose rebuildBundles fit-app@0.0.0
+506 verbose rebuildBundles [ '.bin',
+506 verbose rebuildBundles   'bcrypt',
+506 verbose rebuildBundles   'bcryptjs',
+506 verbose rebuildBundles   'body-parser',
+506 verbose rebuildBundles   'compression',
+506 verbose rebuildBundles   'connect-flash',
+506 verbose rebuildBundles   'connect-mongo',
+506 verbose rebuildBundles   'cookie-parser',
+506 verbose rebuildBundles   'debug',
+506 verbose rebuildBundles   'express',
+506 verbose rebuildBundles   'express-session',
+506 verbose rebuildBundles   'feed-read-parser',
+506 verbose rebuildBundles   'gulp',
+506 verbose rebuildBundles   'gulp-autoprefixer',
+506 verbose rebuildBundles   'gulp-sass',
+506 verbose rebuildBundles   'helmet',
+506 verbose rebuildBundles   'hjs',
+506 verbose rebuildBundles   'iconv-lite',
+506 verbose rebuildBundles   'less-middleware',
+506 verbose rebuildBundles   'mongojs',
+506 verbose rebuildBundles   'mongoose',
+506 verbose rebuildBundles   'mongoose-unique-validator',
+506 verbose rebuildBundles   'morgan',
+506 verbose rebuildBundles   'node-sass',
+506 verbose rebuildBundles   'nodemon',
+506 verbose rebuildBundles   'passport',
+506 verbose rebuildBundles   'passport-facebook',
+506 verbose rebuildBundles   'passport-google-oauth',
+506 verbose rebuildBundles   'passport-local',
+506 verbose rebuildBundles   'request-json',
+506 verbose rebuildBundles   'serve-favicon' ]
+507 verbose rebuild bundle /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcrypt
+508 info build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/bcrypt
+509 info preinstall bcrypt@0.8.7
+510 info linkStuff bcrypt@0.8.7
+511 silly linkStuff bcrypt@0.8.7 has /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules as its parent node_modules
+512 verbose linkBins bcrypt@0.8.7
+513 verbose linkMans bcrypt@0.8.7
+514 verbose rebuildBundles bcrypt@0.8.7
+515 verbose rebuildBundles [ 'bindings', 'nan' ]
+516 info install bcrypt@0.8.7
+517 verbose unsafe-perm in lifecycle true
+518 info postinstall bcrypt@0.8.7
+519 verbose rebuild bundle /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/nodemon
+520 info build /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/nodemon
+521 info preinstall nodemon@1.11.0
+522 info linkStuff nodemon@1.11.0
+523 silly linkStuff nodemon@1.11.0 has /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules as its parent node_modules
+524 verbose linkBins nodemon@1.11.0
+525 verbose link bins [ { nodemon: './bin/nodemon.js' },
+525 verbose link bins   '/Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin',
+525 verbose link bins   false ]
+526 verbose linkMans nodemon@1.11.0
+527 verbose rebuildBundles nodemon@1.11.0
+528 verbose rebuildBundles [ '.bin',
+528 verbose rebuildBundles   'chokidar',
+528 verbose rebuildBundles   'es6-promise',
+528 verbose rebuildBundles   'ignore-by-default',
+528 verbose rebuildBundles   'lodash.defaults',
+528 verbose rebuildBundles   'minimatch',
+528 verbose rebuildBundles   'ps-tree',
+528 verbose rebuildBundles   'touch',
+528 verbose rebuildBundles   'undefsafe',
+528 verbose rebuildBundles   'update-notifier' ]
+529 silly gentlyRm /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin/nodemon is being purged
+530 verbose gentlyRm don't care about contents; nuking /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin/nodemon
+531 silly vacuum-fs purging /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin/nodemon
+532 silly vacuum-fs quitting because other entries in /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/node_modules/.bin
+533 info install nodemon@1.11.0
+534 info postinstall nodemon@1.11.0
+535 info install fit-app@0.0.0
+536 info postinstall fit-app@0.0.0
+537 info prepublish fit-app@0.0.0
+538 verbose validateInstall loading /Users/temisaniwere/Documents/CSC301/project/project-team-13/project/package.json for validation
+539 verbose stack Error: The package mongoose@4.6.7 does not satisfy its siblings' peerDependencies requirements!
+539 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+539 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+539 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+539 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+539 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+539 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+539 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+539 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+539 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+539 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+540 verbose cwd /Users/temisaniwere/Documents/CSC301/project/project-team-13/project
+541 error Darwin 15.3.0
+542 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+543 error node v4.4.7
+544 error npm  v2.15.8
+545 error code EPEERINVALID
+546 error peerinvalid The package mongoose@4.6.7 does not satisfy its siblings' peerDependencies requirements!
+546 error peerinvalid Peer mongoose-unique-validator@1.0.3 wants mongoose@^4.6.8
+547 verbose exit [ 1, true ]

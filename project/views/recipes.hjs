@@ -1,0 +1,46 @@
+<script src="/js/recipes.js"></script>
+
+
+<h4>Recipe Catalogue</h4>
+
+<button type="button" class="btn btn-default" id="save">Save Recipes</button>
+
+<form type="post" action="/recipes/my_recipes">
+   <button type="submit" class="btn btn-default">My Recipes</button>
+</form>
+
+<form type="post" action="/recipes/addrecipe">
+   <button type="submit" class="btn btn-default">Add Recipe</button>
+</form>
+
+<table id="myDataTable" class="table table-hover" cellspacing="0" width="100%">
+     
+   <tr>
+      <th style="width:1%">
+         Add
+      </th>
+          
+      <th>Recipe Name</th>
+          
+      <th>Ingredients</th>
+          
+      <th>Nutrition Infomation</th>
+        
+   </tr>
+   {{#data}}
+   <tr>
+      <td class="v-align-middle">
+         <div class="checkbox ">
+            <input type="checkbox" name="recipe_id" value={{ recipe_id }} id={{ _id }}>
+            <label for={{ _id }}></label>
+         </div>
+      </td>
+      <td>{{ name }}</td>
+      <td>{{ ingredients }}</td>
+      <td>{{ nutrition }}</td>
+   </tr>
+   {{/data}}
+</table>
+
+<br>
+<br>

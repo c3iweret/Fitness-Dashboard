@@ -1,0 +1,7 @@
+{{#entries}}
+<div>
+    <h4>{{from_time}} to {{to_time}}:</h4>
+    <h3> {{name}} <h3>
+</div>
+<hr />
+{{/entries}}

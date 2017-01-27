@@ -1,0 +1,17 @@
+<link href="/css/feedback.css" rel="stylesheet" type="text/css" />
+
+<body>
+
+	<div class='feedback-center'>
+		<h2>Feedback Form</h2>
+	    <form action="/feedback/submit" method="POST">
+		    First Name:<br><input type="text" name="firstname"><br><br>
+		    Last Name:<br><input type="text" name="lastname"><br><br>
+			Email Address:<br><input type="text" name="email"><br><br>
+			Comments:<br>
+			<textarea wrap="physical" name="comments" rows="15" cols="50"></textarea> <br>
+			<input type="submit" value="Submit"> 
+		</form>
+	</div>
+
+ </body>

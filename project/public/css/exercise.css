@@ -1,0 +1,26 @@
+.exercise-header {
+	text-align: center;
+}
+
+.day-button{
+	width: 100%;
+}
+
+#fitness-event-head{
+	text-align: center;
+}
+
+#add-workout{
+	width: 100%;
+	color: black;	
+}
+
+.centered{
+	transform: translate(0, 50%);
+}
+
+.entry{
+	background: rgb(237, 238, 238);
+    padding: 15px;
+    margin: 5px;
+}

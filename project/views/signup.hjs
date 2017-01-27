@@ -1,0 +1,41 @@
+<div id="body">
+	<h1>Signup</h1>
+     
+     <form id="signup" class="hidden" action="/signup" method="post">
+     		<div>
+     		{{ message }}
+     		</div>
+
+     		<div>
+			<label>Email: </label>
+			<input type="email" name="email" required> <br> 
+			</div>
+
+			<div>
+			<label>Password: </label>
+			<input type="password" name="password" required> <br>
+			</div>
+
+			<div>
+			<label>Confirm Your Password: </label>
+			<input type="password" name="confirmedPassword" required> <br>
+			</div>
+
+			<div>
+			<label>Height: </label>
+			<input type="number" name="height" required> <br>
+			</div>
+
+			<div>
+			<label>Weight: </label>
+			<input type="number" name="weight" required> <br>
+			</div>
+
+			<div>
+			<label>Gender: </label>
+			<input type="text" name="gender" required> <br>
+			</div>
+
+			<button type="submit">Sign Up</button>	
+	 </form>
+</div>
