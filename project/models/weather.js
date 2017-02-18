@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 var weatherSchema = new Schema({
     _id: String,
     data: Schema.Types.Mixed,
-    cacheTime: Date,
+    cacheTime: Number,
 });
 
 module.exports = mongoose.model('Weather', weatherSchema);

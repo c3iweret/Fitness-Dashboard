@@ -7,12 +7,8 @@ var bodyParser = require('body-parser');
 var helmet = require('helmet');
 var compression = require('compression');
 var weather = require('./routes/weather');
-var dbObj = require('./config/db');
-var db = dbObj.db;
-var usersDB = db.collection('users');
+//var usersDB = db.collection('users');
 var session = require('express-session');
-var mongoStore = require('connect-mongo')(session);
-
 var passport = require('passport');
 var flash = require('connect-flash');
 var googleStrategy = require('passport-google-oauth').OAuth2Strategy;
@@ -20,7 +16,8 @@ var facebookStrategy = require('passport-facebook').Strategy;
 var configAuth = require('./routes/auth');
 
 mongoose = require('mongoose')
-mongoose.connect(dbObj.connectionURI)
+mongoose.Promise = global.Promise;
+mongoose.connect('mongodb://misan:misan@ds119768.mlab.com:19768/fitness')
 
 var app = express();
 app.use(helmet());
@@ -44,7 +41,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Passport Login session
 require('./config/passport')(passport);
-app.use(session({store: new mongoStore({url: dbObj.connectionURI}),
+app.use(session({
   secret: 'secret',
   duration: 30 * 60 * 1000,
   activeDuration: 5 * 60 * 1000,
@@ -79,7 +76,7 @@ app.use('/recipes', recipes);
 app.use('/exercise', exercise);
 // app.use('/login', login);
 app.use('/feed', feed);
-app.use('/weather', weather);
+//app.use('/weather', weather);
 app.use('/projections', projections);
 app.use('/feedback', feedback);
 app.use('/todo', todo);
@@ -106,6 +103,6 @@ app.use(function(err, req, res, next) {
 });
 
 //listen to port
-app.listen(8000);
-console.log('listening on port 8000!');
+app.listen(3001);
+console.log('listening on port 3001!');
 module.exports = app;
